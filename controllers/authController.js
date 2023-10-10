@@ -229,12 +229,4 @@ const resetPassword = async (req, res) => {
     }
 }
 
-// Accessing the user data from the req.user of authMiddleware
-const userData = (req, res) => {
-    // Access user data from req.user
-    const userData = req.user;
-
-    // Use userData in your response or perform other actions
-    res.json({ user: userData });
-}
 export { signup, login, forgotPassword, resetPassword, userData };
