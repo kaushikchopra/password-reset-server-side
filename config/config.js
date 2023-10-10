@@ -1,1 +1,1 @@
-export const clientURL = "https://passwordreset-app.netlify.app/";
+export const clientURL = "https://passwordreset-app.netlify.app";
