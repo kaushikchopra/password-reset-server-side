@@ -229,4 +229,4 @@ const resetPassword = async (req, res) => {
     }
 }
 
-export { signup, login, forgotPassword, resetPassword, userData };
+export { signup, login, forgotPassword, resetPassword };
