@@ -54,7 +54,5 @@ router.put(
     resetPassword
 );
 
-// Route that retrieves user data from req.user
-router.get('/dashboard', userData);
 
 export default router;
